@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_01_Variable", "SimpleAllOneProject\Example_01_Variable.csproj", "{5C2914BA-3957-4BA9-B2FC-F3B371FBFFDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_01_Variable", "SimpleAllOneProject\Example_01_Variable.csproj", "{5C2914BA-3957-4BA9-B2FC-F3B371FBFFDF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Them_01", "Them_01", "{10012B1C-FDBC-4834-A74A-448D2A6C47BE}"
 EndProject
@@ -13,17 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_01", "Lesson_01", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_02", "Lesson_02", "{B1CB7134-732C-4984-8E0A-B4C89E8FA6DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_02_DataTypes", "Example_002_DataTypes\Example_02_DataTypes.csproj", "{A0B3EB4D-0CC7-40CD-88A7-D9808D5791BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_02_DataTypes", "Example_002_DataTypes\Example_02_DataTypes.csproj", "{A0B3EB4D-0CC7-40CD-88A7-D9808D5791BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_03_IntegerTyepes", "Example_03_IntegerTyepes\Example_03_IntegerTyepes.csproj", "{D75EBFE1-5788-434C-86D2-A38BDAB8D1C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_03_IntegerTyepes", "Example_03_IntegerTyepes\Example_03_IntegerTyepes.csproj", "{D75EBFE1-5788-434C-86D2-A38BDAB8D1C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_04_FloatPointTypes", "Example_04_FloatPointTypes\Example_04_FloatPointTypes.csproj", "{BCCD0003-1DDE-4E6D-9657-2BB3096207D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_04_FloatPointTypes", "Example_04_FloatPointTypes\Example_04_FloatPointTypes.csproj", "{BCCD0003-1DDE-4E6D-9657-2BB3096207D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_05_CharTypes", "Example_05_CharTypes\Example_05_CharTypes.csproj", "{9C25BE7F-7A55-45E5-B83B-6303B5577788}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_05_CharTypes", "Example_05_CharTypes\Example_05_CharTypes.csproj", "{9C25BE7F-7A55-45E5-B83B-6303B5577788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_06_BooleanTypes", "Example_06_BooleanTypes\Example_06_BooleanTypes.csproj", "{B168CB75-E609-4CC4-A6C2-C58BEA069DA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_06_BooleanTypes", "Example_06_BooleanTypes\Example_06_BooleanTypes.csproj", "{B168CB75-E609-4CC4-A6C2-C58BEA069DA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exapmle_07_StringTypes", "Exapmle_07_StringTypes\Exapmle_07_StringTypes.csproj", "{C11871AE-B4DE-497D-A7BE-2B91169D8052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exapmle_07_StringTypes", "Exapmle_07_StringTypes\Exapmle_07_StringTypes.csproj", "{C11871AE-B4DE-497D-A7BE-2B91169D8052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_001_Formatedoutput", "Example_001_Formatedoutput\Example_001_Formatedoutput.csproj", "{BE1BE83F-6CC7-426D-886B-0CFDE3F78A34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{C11871AE-B4DE-497D-A7BE-2B91169D8052}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C11871AE-B4DE-497D-A7BE-2B91169D8052}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C11871AE-B4DE-497D-A7BE-2B91169D8052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1BE83F-6CC7-426D-886B-0CFDE3F78A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1BE83F-6CC7-426D-886B-0CFDE3F78A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1BE83F-6CC7-426D-886B-0CFDE3F78A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1BE83F-6CC7-426D-886B-0CFDE3F78A34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{9C25BE7F-7A55-45E5-B83B-6303B5577788} = {D20CDA22-0EC6-4188-AD27-E1C71009A4DE}
 		{B168CB75-E609-4CC4-A6C2-C58BEA069DA3} = {D20CDA22-0EC6-4188-AD27-E1C71009A4DE}
 		{C11871AE-B4DE-497D-A7BE-2B91169D8052} = {D20CDA22-0EC6-4188-AD27-E1C71009A4DE}
+		{BE1BE83F-6CC7-426D-886B-0CFDE3F78A34} = {B1CB7134-732C-4984-8E0A-B4C89E8FA6DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77FAE285-E1D4-497C-B929-0EFD609A5151}
