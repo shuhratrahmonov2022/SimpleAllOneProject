@@ -39,8 +39,27 @@ namespace Example_001_FormatedOutput
                 age,
                 yearOfBirth);
 
-           
-           
+            #region переиспользование pattern
+
+            string fName = "Ада";
+            string lName = "Лавлейс";
+            string profession = "Программист";
+
+            byte years = 37;
+            ulong birth = 1815;
+
+            Console.WriteLine(pattern,
+                fName,
+                lName,
+                profession,
+                years,
+                birth);
+
+
+            #endregion 
+
+
+
         }
     }
 }
