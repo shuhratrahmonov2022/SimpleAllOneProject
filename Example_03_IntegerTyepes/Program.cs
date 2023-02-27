@@ -11,15 +11,6 @@ uint uInt32 = 2;
 ulong uInt64 = 3;
 
 
-
-
-
-
-
-
-
-
-
 int hexNumber = 0x7C6;
 Console.WriteLine(hexNumber);
 
