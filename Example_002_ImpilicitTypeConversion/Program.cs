@@ -12,7 +12,7 @@ namespace Example_002_ImplicitTypeConversion
             long longValue = intValue;
             double doubleValue = longValue;
 
-
+            Console.WriteLine(doubleValue);
             char c = 'a';
             int d = c;
 
