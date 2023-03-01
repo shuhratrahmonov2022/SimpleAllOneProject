@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_003_ExplicitTypeCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_004_ParseConversion", "Example_004_ParseConversion\Example_004_ParseConversion.csproj", "{463936EB-8195-4BA6-9816-94DFB0785F81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_005_ConvertTo", "Example_005_ConvertTo\Example_005_ConvertTo.csproj", "{EDB30F78-1AA4-492F-8BB8-3FF8E659DF0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{463936EB-8195-4BA6-9816-94DFB0785F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{463936EB-8195-4BA6-9816-94DFB0785F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{463936EB-8195-4BA6-9816-94DFB0785F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB30F78-1AA4-492F-8BB8-3FF8E659DF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB30F78-1AA4-492F-8BB8-3FF8E659DF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB30F78-1AA4-492F-8BB8-3FF8E659DF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB30F78-1AA4-492F-8BB8-3FF8E659DF0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +138,7 @@ Global
 		{DC578C51-8501-44C2-86C2-4EB28B6565E1} = {3326DD18-6A38-4365-9B8E-ED511265A485}
 		{720A7568-37E4-495A-B1A6-A07671577141} = {3326DD18-6A38-4365-9B8E-ED511265A485}
 		{463936EB-8195-4BA6-9816-94DFB0785F81} = {3326DD18-6A38-4365-9B8E-ED511265A485}
+		{EDB30F78-1AA4-492F-8BB8-3FF8E659DF0E} = {3326DD18-6A38-4365-9B8E-ED511265A485}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77FAE285-E1D4-497C-B929-0EFD609A5151}
