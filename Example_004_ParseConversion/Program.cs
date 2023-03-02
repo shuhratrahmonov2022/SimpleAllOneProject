@@ -4,7 +4,7 @@ namespace Example_004_ParseConversion
 {
     class Program
     {
-        static void Main(string[] args) 
+        static void Main(string[] args)
         {
             string inputString = "2029";
             int intValue = int.Parse(inputString);
