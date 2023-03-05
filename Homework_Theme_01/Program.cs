@@ -41,7 +41,7 @@ namespace Homework_Theme_01
             Console.WriteLine("{0,-20} {1}", "Ваше имя: ", name);
             Console.WriteLine("{0,-20} {1}", "Ваше Возраст: ", age);
             Console.WriteLine("{0,-20} {1}", "Ваше Рост: ", height);
-            Console.WriteLine("{0,-20} {1}", "Ваше средний балл: ",average);
+            Console.WriteLine("{0,-20} {1:F1}", "Ваше средний балл: ", average);
 
             Console.WriteLine();
             Console.WriteLine($"Ваше имя:{name} Ваше Возраст: {age} Ваше рост: {height}  Ваше средний балл: {average:F1}");
